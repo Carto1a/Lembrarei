@@ -36,15 +36,17 @@ git clone [url]
 
 # Comandos
 
-## init
+## Configuração inicial de repositório
+### init
+### clone
+### config
+### remote
 
-## clone
+## Adição e commit de alterações
+### add
+### commit
 
-## add
-
-## commit
-
-### Em qual momento fazer o commit:
+#### Em qual momento fazer o commit:
 
 - **Após concluir uma funcionalidade ou uma parte significativa do trabalho:** Quando você finalizar uma funcionalidade, uma correção de bug ou uma parte importante do seu projeto, faça um commit para registrar essas mudanças e marcar um ponto de referência no histórico do projeto.
 
@@ -56,20 +58,42 @@ git clone [url]
 
 - **Regularmente e de forma incremental:** Faça commits regularmente e de forma incremental à medida que você avança no desenvolvimento do seu projeto. Isso ajuda a manter um histórico claro e organizado das alterações feitas ao longo do tempo.
 
-### Como escrever uma boa mensagem no commit
+#### Como escrever uma boa mensagem no commit
 
 [[Commit Message]]
 
-## branch
+## Ramificação, mesclagem e reorganização de histórico
+### branch
+### checkout
+### merge
+### rebase
 
-## remote
+## Atualização e sincronização
+### fetch
+### pull
+### push
 
-## push
+## Desfazer alterações
+### checkout
+### reset
+### revert
 
-## config
+## Visualização e inspeção do histórico
+### log
+### status
+### diff
+### blame
+### show
 
-## revert
+## Modificação de arquivos
+### rm
+### mv
 
-
-
+## Outros
+### tag
+### submodule
+### stash
+### bisect
+### clean
+### cherry-pick
 
